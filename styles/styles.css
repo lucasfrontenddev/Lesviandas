@@ -135,6 +135,12 @@ h3{
     padding: 5px;
     min-width: 50px;
     min-height: 50px;
+
+    transition: all .3s ease-in-out;
+}
+
+.logo:hover{
+    transform: rotate(-180deg);
 }
 
 #hero{
